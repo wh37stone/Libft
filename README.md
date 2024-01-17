@@ -1,8 +1,6 @@
 # **Libft**
 Your very first own library  
 <br><br>
-<br><br>
-
 **Summary:**  
 This project is about coding a C library.
 It will contain a lot of general purpose functions your programs will rely upon.  
@@ -19,14 +17,12 @@ It will contain a lot of general purpose functions your programs will rely upon.
 **V** Submission and peer-evaluation  
 
 <br><br>
-
 ## Chapter I  
 **Introduction**  
 C programming can be very tedious when one doesn’t have access to the highly useful standard functions. This project is about understanding the way these functions work, implementing and learning to use them. Your will create your own library. It will be helpful since you will use it in your next C school assignments.  
 Take the time to expand your libft throughout the year. However, when working on a new project, don’t forget to ensure the functions used in your library are allowed in the project guidelines.  
 
 <br><br>
-  
 ## Chapter II  
 **Common Instructions**  
 - Your project must be written in C.
@@ -41,7 +37,6 @@ Take the time to expand your libft throughout the year. However, when working on
 - Submit your work to your assigned git repository. Only the work in the git repository will be graded. If Deepthought is assigned to grade your work, it will be done after your peer-evaluations. If an error happens in any section of your work during Deepthought’s grading, the evaluation will stop.
 
 <br><br>
-
 ## Chapter III  
 **Mandatory part**
 |**Program name**|libft.a|
@@ -68,11 +63,9 @@ Take the time to expand your libft throughout the year. However, when working on
 To begin, you must redo a set of functions from the libc. Your functions will have the same prototypes and implement the same behaviors as the originals. They must comply with the way they are defined in their man. The only difference will be their names. They will begin with the ’ft\_’ prefix. For instance, strlen becomes ft\_strlen.  
 
 <br><br>
-
 > Some of the functions’ prototypes you have to redo use the ’restrict’ qualifier. This keyword is part of the c99 standard. It is therefore forbidden to include it in your own prototypes and to compile your code with the -std=c99 flag.  
 
 <br><br>
-
 You must write your own function implementing the following original ones. They do not require any external functions:  
 - isalpha  
 - isdigit  
@@ -104,11 +97,9 @@ In order to implement the two following functions, you will use malloc():
 In this second part, you must develop a set of functions that are either not in the libc, or that are part of it but in a different form.  
 
 <br><br>
-
 > Some of the following functions can be useful for writing the functions of Part 1.
 
 <br><br>
-
 |**Function name**|ft\_substr|
 | - | - |
 |**Prototype**|char \*ft\_substr(char const \*s, unsigned int start, size\_t len);|
@@ -219,7 +210,6 @@ In this second part, you must develop a set of functions that are either not in 
 |**Description**|Outputs the integer ’n’ to the given file descriptor.|
 
 <br><br>
-
 ## Chapter IV  
 **Bonus part**  
 If you completed the mandatory part, do not hesitate to go further by doing this extra one. It will bring bonus points if passed successfully.  
@@ -240,11 +230,9 @@ The members of the t\_list struct are:
 
 In your Makefile, add a make bonus rule to add the bonus functions to your libft.a.  
 <br><br>  
-
 > The bonus part will only be assessed if the mandatory part is PERFECT. Perfect means the mandatory part has been integrally done and works without malfunctioning. If you have not passed ALL the mandatory requirements, your bonus part will not be evaluated at all.  
 
 <br><br>
-
 Implement the following functions in order to easily use your lists.  
 
 
