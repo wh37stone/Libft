@@ -6,7 +6,7 @@
 /*   By: joandre- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/11 12:02:11 by joandre-          #+#    #+#             */
-/*   Updated: 2023/10/26 16:12:19 by joandre-         ###   ########.fr       */
+/*   Updated: 2024/02/25 01:19:47 by joandre-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -74,8 +74,11 @@ int	main(void)
 
 	printf("ORIGINAL: [%s]\nRESULT:\t  ", str);
 	for (int i = 0; split[i]; i++)
+	{
 		printf("[%s]\t", split[i]);
-	printf("\n");
+		free(split[i]);
+	}
 	free(split);
+	printf("\n");
 	return (0);
 }*/
